@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/simulate-iter-sine-wave",
+  "version": "0.0.0",
+  "description": "Create an iterator which generates a sine wave.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/simulate-iter-sine-wave.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "simulate",
+    "simulation",
+    "sine",
+    "sin",
+    "cos",
+    "cosine",
+    "sinusoid",
+    "wave",
+    "signal",
+    "processing",
+    "waveform",
+    "periodic",
+    "iterator",
+    "iterate",
+    "iteration",
+    "iter"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
