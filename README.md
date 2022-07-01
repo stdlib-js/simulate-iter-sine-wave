@@ -78,7 +78,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterSineWave;
+})();
 })();
 </script>
 ```
@@ -251,6 +253,7 @@ var bool = it.next().done;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create an iterator:
 var opts = {
@@ -271,6 +274,7 @@ while ( true ) {
     console.log( v.value );
 }
 
+})();
 })();
 </script>
 </body>
@@ -378,15 +382,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/simulate/iter/cosine-wave]: https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/umd
+[@stdlib/simulate/iter/cosine-wave]: https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/umd/tree/umd
 
-[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse/tree/umd
+[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse/tree/umd/tree/umd
 
-[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave/tree/umd
+[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave/tree/umd/tree/umd
 
-[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave/tree/umd
+[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave/tree/umd/tree/umd
 
-[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave/tree/umd
+[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
