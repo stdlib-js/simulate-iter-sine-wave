@@ -32,10 +32,14 @@ A sine waveform is represented by the following equation
 
 <!-- <equation class="equation" label="eq:sine_waveform" align="center" raw="f(t; \tau, a, \varphi) = a \sin \frac{2\pi(t-\varphi)}{\tau}" alt="Equation for a sine waveform."> -->
 
-<div class="equation" align="center" data-raw-text="f(t; \tau, a, \varphi) = a \sin \frac{2\pi(t-\varphi)}{\tau}" data-equation="eq:sine_waveform">
+```math
+f(t; \tau, a, \varphi) = a \sin \frac{2\pi(t-\varphi)}{\tau}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="f(t; \tau, a, \varphi) = a \sin \frac{2\pi(t-\varphi)}{\tau}" data-equation="eq:sine_waveform">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@5827c258000edcb03496265cdfd372d686b4c656/lib/node_modules/@stdlib/simulate/iter/sine-wave/docs/img/equation_sine_waveform.svg" alt="Equation for a sine waveform.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -279,11 +283,11 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/simulate/iter/cosine-wave`][@stdlib/simulate/iter/cosine-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a cosine wave.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/sawtooth-wave`][@stdlib/simulate/iter/sawtooth-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sawtooth wave.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/square-wave`][@stdlib/simulate/iter/square-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a square wave.</span>
--   <span class="package-name">[`@stdlib/simulate/iter/triangle-wave`][@stdlib/simulate/iter/triangle-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a triangle wave.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/cosine-wave`][@stdlib/simulate/iter/cosine-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a cosine wave.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/sawtooth-wave`][@stdlib/simulate/iter/sawtooth-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sawtooth wave.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/square-wave`][@stdlib/simulate/iter/square-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a square wave.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/triangle-wave`][@stdlib/simulate/iter/triangle-wave]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a triangle wave.</span>
 
 </section>
 
@@ -342,7 +346,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
