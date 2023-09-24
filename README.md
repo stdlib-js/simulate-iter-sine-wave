@@ -71,7 +71,7 @@ where `τ` is the period, `a` is the peak amplitude, and `φ` is the phase offse
 ## Usage
 
 ```javascript
-import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@esm/index.mjs';
+import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@v0.1.0-esm/index.mjs';
 ```
 
 #### iterSineWave( \[options] )
@@ -241,7 +241,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@esm/index.mjs';
+import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@v0.1.0-esm/index.mjs';
 
 // Create an iterator:
 var opts = {
